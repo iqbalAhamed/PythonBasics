@@ -5,7 +5,8 @@
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
-for num in numbers: print (num)
+for num in numbers:
+     print (num)
 
 
 # fruits = ["Apple", "Mango", "Banana", "Peach"]
