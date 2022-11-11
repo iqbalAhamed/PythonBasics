@@ -1,8 +1,7 @@
 #Python Basic
 """
-******* loop through list
-"""
-"""
+# loop through list
+#
 
 """
 numbers = [12, 75, 150, 180, 145, 525, 50]
@@ -17,4 +16,10 @@ for num in numbers:
             break
         else:
             print(num) 
-   
+print("**************************")
+
+name = input("What is your name ?" ).strip().title()
+print ("Hello:",name) #Remove white space
+
+
+print("**************************")
