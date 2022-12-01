@@ -5,22 +5,46 @@ Q26. What is a string? How can we declare string in Python?
 Q27. How can we access the string using its index?
 
 Q28. Write a code to get the desired output of the following
-
+`
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
+
+# Ans:
+listOfString  = "Big Data iNeuron".split()
+for lst in listOfString:
+    if lst == "iNeuron":
+        print(lst)   
+
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "norueNi"
+
+# Ans:
+listOfString  = "Big Data iNeuron".split()
+for lst in listOfString:
+    if lst == "iNeuron":
+        print(lst[-1::-1])  
+
 Q30. Resverse the string given in the above question.
+# Ans:
+print("Big Data iNeuron"[-1::-1])
 
 Q31. How can you delete entire string at once?
+# Ans:
+listOfString  = "Big Data iNeuron"
+newStr =  listOfString.replace(listOfString,"")
+print(newStr)
+print(len(newStr))
+
 
 Q32. What is escape sequence?
 
 Q33. How can you print the below string?
 
 'iNeuron's Big Data Course'
+
+
 Q34. What is a list in Python?
 
 Q35. How can you create a list in Python?
@@ -30,6 +54,7 @@ Q36. How can we access the elements in a list?
 Q37. Write a code to access the word "iNeuron" from the given list.
 
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
 Q38. Take a list as an input from the user and find the length of the list.
 
 Q39. Add the word "Big" in the 3rd index of the given list.
